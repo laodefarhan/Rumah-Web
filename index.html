@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rumah Web</title>
+
+    <!-- Deskripsi singkat tentang website untuk SEO -->
+    <meta name="description"
+        content="Rumah Web - Temukan rumah impian Anda! Kami menawarkan rumah pribadi dengan harga terbaik dan lokasi strategis. Hubungi kami untuk informasi lebih lanjut."">
+
+    <!-- Kata kunci yang berkaitan dengan website untuk SEO -->
+    <meta name=" keywords" content="rumah web, tanjung gunung, perumahan pantai tanjung gunung">
+
+    <!-- Penulis atau pemilik website -->
+    <meta name="author" content="Laode Farhan Fadilah">
+
+    <!-- Favicon untuk ikon browser -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Open Graph Meta Tags untuk preview saat dibagikan di media sosial -->
+    <meta property="og:title" content="Rumah Web - Rumah Impian di Bangka Belitung">
+    <meta property="og:description"
+        content="Miliki rumah impian di Provinsi Bangka Belitung! Lokasi strategis, harga terjangkau, dan lingkungan nyaman. Temukan hunian terbaik untuk masa depan Anda.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1628260412297-a3377e45006f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+
+    <!-- Stylesheets utama -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Stylesheets untuk tampilan responsif -->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- Ikon dari Boxicons untuk penggunaan ikon di website -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <h2><a href="/" id="" class="logo">RUMAH WEB.</a></h2>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang-kami">Tentang Kami</a></li>
+                <li><a href="#informasi">Informasi</a></li>
+                <li><a href="#kontak-kami">Kontak kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Beranda section -->
+    <section id="beranda" class="beranda">
+        <div class="beranda-content">
+            <h2 id="welcome-text">Selamat Datang di</h2>
+            <h3 id="text">Rumah Web</h3>
+            <p>Perumahan pantai tanjung gunung, RT. 11, Prov. Bangka Belitung, Kec. Pangkalanbaru, Kab. Bangka Tengah
+            </p>
+        </div>
+    </section>
+
+    <!-- Tentang kami section -->
+    <section id="tentang-kami" class="tentang-kami">
+        <div class="tentang-content">
+            <h2 id="tentang-text">Tentang <span id="span-text">kami</span></h2>
+            <p>Selamat datang di website resmi penjualan rumah pribadi kami yang berlokasi di Perumahan Pantai Tanjung
+                Gunung, RT 11, Kecamatan Pangkalanbaru, Kabupaten Bangka Tengah, Provinsi Bangka Belitung. Kami hadir
+                untuk menawarkan hunian eksklusif dengan lingkungan yang nyaman, strategis, dan bernuansa asri, dekat
+                dengan pesisir pantai yang indah.
+
+                Kami berkomitmen untuk memberikan pengalaman terbaik dalam pembelian rumah, dengan proses yang
+                transparan dan layanan yang profesional. Rumah yang kami tawarkan dirancang untuk memenuhi kebutuhan
+                hunian yang ideal, baik dari segi kenyamanan, keamanan, maupun aksesibilitas.
+
+                Temukan rumah impian Anda bersama kami dan jadikan Perumahan Pantai Tanjung Gunung sebagai tempat
+                tinggal yang sempurna bagi Anda dan keluarga! 🏡✨</p>
+        </div>
+    </section>
+
+    <!-- Informasi section -->
+    <section id="informasi" class="informasi">
+        <div class="container">
+            <h2 class="info-title">Informasi</h2>
+            <p>Berikut adalah informasi mengenai rumah yang tersedia, mencakup luas bangunan, kapasitas hunian, serta
+                harga yang ditawarkan.</p>
+            <div class="info-grid">
+                <div class="info-item">
+                    <i class='bx bx-home'></i>
+                    <h3>387 m²</h3>
+                    <p>Luas keseluruhan bangunan dan tanah</p>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-male-female'></i>
+                    <h3>6 Orang</h3>
+                    <p>Kapasitas hunian yang dapat ditempati</p>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-money-withdraw'></i>
+                    <h3>± Rp 80 Juta</h3>
+                    <p>Harga estimasi yang ditawarkan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak kami section -->
+    <section id="kontak-kami" class="kontak-kami">
+        <div class="container">
+            <h2 class="kontak-title">Kontak <span id="span-text">Kami</span></h2>
+            <div class="kontak-grid">
+                <!-- Formulir Kontak di Sebelah Kiri -->
+                <div class="kontak-form">
+                    <h3>Hubungi Kami</h3>
+                    <form action="#" method="POST">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+
+                        <label for="phone">No. Handphone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor handphone" required>
+
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda" required></textarea>
+
+                        <button type="submit">Kirim</button>
+                    </form>
+                </div>
+
+                <!-- Ikon WhatsApp di Sebelah Kanan -->
+                <div class="kontak-wa">
+                    <h3>Hubungi via WhatsApp</h3>
+                    <div class="wa-box">
+                        <i class='bx bxl-whatsapp'></i>
+                        <p>+62 821 2565 2157</p>
+                    </div>
+                    <div class="wa-box">
+                        <i class='bx bxl-whatsapp'></i>
+                        <p>+62 897 4159 938</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <p>&copy; 2025 Rumah Web | Laode Farhan Fadilah</p>
+
+        <!-- Tombol ke atas -->
+        <a href="#beranda" class="back-to-top">
+            <i class='bx bx-chevron-up'></i>
+        </a>
+    </footer>
+
+</body>
+<script src="main.js"></script>
+
+</html>
